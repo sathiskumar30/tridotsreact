@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tridotsreact/static/css/main.84bd0aa5.css",
+    "main.js": "/tridotsreact/static/js/main.8cebef00.js",
+    "index.html": "/tridotsreact/index.html",
+    "main.84bd0aa5.css.map": "/tridotsreact/static/css/main.84bd0aa5.css.map",
+    "main.8cebef00.js.map": "/tridotsreact/static/js/main.8cebef00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84bd0aa5.css",
+    "static/js/main.8cebef00.js"
+  ]
+}
