@@ -201,7 +201,7 @@ function App() {
           </div>
           <div>
             <h3 className="font-medium border-t-[1px] py-4">
-              Select Citywalk opens 4 new stores in June
+              Select Citywalk opens 4 new stores in July
             </h3>
             <h4>
               These companies created a lot of hype when they listed on the...
