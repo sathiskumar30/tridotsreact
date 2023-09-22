@@ -1,0 +1,310 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search{
+    padding:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+}
+#re_img{
+    width: 10rem;
+    margin: -2rem;
+}
+.search_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 5px;
+}
+.search_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 5px;
+}
+.btn_1{
+     color: white;
+     background-color: red;
+     border: 1px solid red ;
+     padding:7px;
+}
+.btn_2{
+    color:black;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(184, 176, 176) ;
+    padding:7px;
+}
+.Nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 14px;
+}
+.nav_bar1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+.l_1,.l_3{
+   height: 0.2rem;
+   width: 2rem;
+   background-color: black;
+}
+.l_2{
+    height:0.2rem;
+    width: 2.5rem;
+    background-color: black;
+}
+.nav_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    font-weight: bolder;
+}
+.Nav_bar2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 180px;
+    gap:-10px;
+    color: rgb(160, 157, 157);
+}
+#imgs_1{
+    width: 2rem;
+    height: 2rem;
+}
+.News{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px ;
+    background-color: rgb(243, 243, 243);
+}
+.new_img1,.new_img2,.new_img3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap:1rem;
+}
+.weather{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+#img1{
+    height: 6rem;
+    width: 7rem;
+    border-radius: 10px;
+}
+#img2{
+    height: 6rem;
+    width: 7rem;
+    border-radius: 10px;
+}
+#img3{
+    height: 6rem;
+    width: 7rem;
+    border-radius: 10px;
+}
+.grids{
+   display: grid;
+   grid-template-columns:2fr 1fr 1fr;
+   grid-column-gap: 2rem;
+   padding: 20px 20px;
+}
+.back_image{
+    display: flex;
+    align-items: end;
+    width: 40rem;
+    height: 25rem;
+    background-color: white;
+    background: url('https://static.toiimg.com/thumb/msid-94097498,width-1070,height-580,imgsize-70016,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position: 0px 0px ;
+}
+.img_text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: baseline;
+    padding: 10px;
+    font-weight: 550;
+}
+#foc_btn{
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+}
+.Comp_1{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content:stretch;
+    gap: 3rem;
+    padding: 25px 0;
+}
+.Comp_img1>img{
+    display: flex;
+    align-items: normal;
+    width: 8rem;
+    height: 7rem;
+    border-radius: 5px;
+    
+}
+.Comp_text1{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    gap: 6.5rem;
+    
+}
+.texty_1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+}
+.Comp_icon1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+.Comp_text2{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    gap: 12rem;
+    
+}
+.Comp_text3{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    gap: 9rem;
+    
+}
+.red_line{
+    width: 1.2rem;
+    height:0.2rem;
+    background-color: red;
+    border-radius: 1px;
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 20px;
+  }
+  .container>p{
+    border-bottom: 2px solid red;
+    padding-bottom: 3px;
+    width: fit-content;
+  }
+  
+  .top-head{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    height: 250px;
+  }
+  
+  .img-1{
+    padding: 20px;
+    width: 40% ;
+    height: 100%;
+    border-radius: 5px;
+    background: linear-gradient(#d1269e00, #00000071) ,url('https://static.toiimg.com/thumb/msid-94097498,width-1070,height-580,imgsize-70016,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgb(235, 62, 62);
+  }
+  .img-1 p:first-child{
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+  }
+  .img-1 p:last-child{
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .mid-con{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .mid-con>p{
+    font-size: 14px;
+    display: flex;
+  
+    align-items: center;
+  }
+  
+  .ad-con{
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: pink;
+    background: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/big-bike-video-advertisement-design-template-a14c688334345c8422193f4d9425112a_screen.jpg?ts=1664733817');
+    background-position: center;
+    background-size: cover;
+    background-position: 0px 0px;
+  }
+  
+  .bottom-con{
+    width: 100%;
+    padding:  10px 0px;
+    display: flex;
+    gap: 2%;
+  }
+  
+  .item{
+    width: 20%;
+  }
+  .item img{
+    width: 100%;
+    height:  100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .item p{
+    font-size: 14px;
+    font-weight:500;
+  }
