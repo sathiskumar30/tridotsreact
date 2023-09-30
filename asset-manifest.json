@@ -1,13 +1,35 @@
 {
   "files": {
-    "main.css": "/tridotsreact/static/css/main.84bd0aa5.css",
-    "main.js": "/tridotsreact/static/js/main.49343540.js",
+    "main.css": "/tridotsreact/static/css/main.505b5821.css",
+    "main.js": "/tridotsreact/static/js/main.0ac688a9.js",
+    "static/media/imgp1.jpg": "/tridotsreact/static/media/imgp1.efe70c6b9003900fdc8a.jpg",
+    "static/media/imgs3.jpg": "/tridotsreact/static/media/imgs3.33451ce2fc6d6f945062.jpg",
+    "static/media/imgs5.jpg": "/tridotsreact/static/media/imgs5.6263a1a83c36643d4dda.jpg",
+    "static/media/slide.jpg": "/tridotsreact/static/media/slide.2f3aefce37bc08c6ea9f.jpg",
+    "static/media/imgs4.jpg": "/tridotsreact/static/media/imgs4.0b493700f1247ab64cfe.jpg",
+    "static/media/imgps6.jpg": "/tridotsreact/static/media/imgps6.53d7e5a904099723154c.jpg",
+    "static/media/imgps1.jpg": "/tridotsreact/static/media/imgps1.a60c77fbdd7cb4a9138b.jpg",
+    "static/media/imgps4.jpg": "/tridotsreact/static/media/imgps4.ebc51b62929e3eec915f.jpg",
+    "static/media/imgps3.jpg": "/tridotsreact/static/media/imgps3.bedb135ed7f0cf504b0b.jpg",
+    "static/media/imgs1.jpg": "/tridotsreact/static/media/imgs1.5e4825a90f623294ea8f.jpg",
+    "static/media/imgps5.jpg": "/tridotsreact/static/media/imgps5.28aaf581e383ead62449.jpg",
+    "static/media/imgs2.jpg": "/tridotsreact/static/media/imgs2.6e50e6d15d3145a553be.jpg",
+    "static/media/imgn4.jpg": "/tridotsreact/static/media/imgn4.08242a233556d8a7fb7a.jpg",
+    "static/media/imgn2.jpg": "/tridotsreact/static/media/imgn2.c84030274f5e98c07478.jpg",
+    "static/media/imgn5.jpg": "/tridotsreact/static/media/imgn5.f4c0fb00453251d92b1d.jpg",
+    "static/media/imgps2.jpg": "/tridotsreact/static/media/imgps2.4a3bbdfa766c649add44.jpg",
+    "static/media/imgn6.jpg": "/tridotsreact/static/media/imgn6.0de6b6d165f0a9f41e52.jpg",
+    "static/media/imgn1.jpg": "/tridotsreact/static/media/imgn1.11217d648657d363dab4.jpg",
+    "static/media/imgn3.jpg": "/tridotsreact/static/media/imgn3.72a3af1c83e1f3061b8c.jpg",
+    "static/media/imgrn1.jpg": "/tridotsreact/static/media/imgrn1.48e97dbc9b19b06c96da.jpg",
+    "static/media/imgrn4.jpg": "/tridotsreact/static/media/imgrn4.d015c9347deb024c6726.jpg",
+    "static/media/imgrn5.jpg": "/tridotsreact/static/media/imgrn5.eb9ca614366aad4943bd.jpg",
     "index.html": "/tridotsreact/index.html",
-    "main.84bd0aa5.css.map": "/tridotsreact/static/css/main.84bd0aa5.css.map",
-    "main.49343540.js.map": "/tridotsreact/static/js/main.49343540.js.map"
+    "main.505b5821.css.map": "/tridotsreact/static/css/main.505b5821.css.map",
+    "main.0ac688a9.js.map": "/tridotsreact/static/js/main.0ac688a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.84bd0aa5.css",
-    "static/js/main.49343540.js"
+    "static/css/main.505b5821.css",
+    "static/js/main.0ac688a9.js"
   ]
 }
