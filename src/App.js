@@ -6,6 +6,7 @@ import { LiaGreaterThanSolid } from "react-icons/lia";
 import Section1 from "./Section1";
 
 
+
 function App() {
   return (
     <div>
@@ -267,8 +268,354 @@ function App() {
         </div>
       </div>
       <Section1/>
+
+    <div>
+        <div className="pl-6">
+           <h2 className="font-bold text-2xl">Trending</h2>
+            <p className="red_line"></p>
+        </div>
+         <div className="flex justify-stretch items-center flex-row gap-3 p-4 pl-6">
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Rahul Gandhi in Manipur</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Meta</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">E-Commercer</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Fashion</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Live Cricket News</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Leo Update</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Sushant dead</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Myntra Launches</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Thalapathy Vijay</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">India won</p>
+            <p className=" border border-gray-200 rounded-md  font-medium text-base text-gray-500 px-2 py-2 "><LiaGreaterThanSolid/></p>
+         </div>
+         </div>
+
+
+
+
+
+
+    <div main className="p-3 pl-6 flex flex-row justify-between gap-2">
+
+      <div firstblock>
+              <div nav className=" flex flex-row items-center justify-between">
+                   <div>
+                  <h2 className="font-bold text-2xl">Leaders Ink</h2>
+                    <p className="red_line"></p>
+                    </div>
+                    <div className="flex justify-between
+                    items-center gap-1.5 ">
+                      <p className="text-slate-600">See more </p>
+                      <p className=" text-base text-gray-500 text-center mt-1"><LiaGreaterThanSolid/></p>
+                    </div>
+              </div>
+          <div content className="pt-2 flex flex-row justify-between items-center gap-4">
+              <div comp className="">
+                  <div>
+                    <img className="rounded-t-lg w-auto" src={require('./images/imgs4.jpg')} alt="image" srcset="" />
+                  </div>
+                  <div>
+                      <div className="flex flex-row justify-between align-center pt-3 gap-3 py-2"> 
+                       <img className="" src={require('./images/elip1.jpg')} alt="image" srcset="" />
+                       <p className="text-md font-bold">Top 5 Iconic Apple stores across the world by design</p>
+                       </div>
+                      <div className="flex flex-col items-start justify-center gap-2 w-fit">
+                      <p className="text-gray-500 font-medium ">From a total of around 522 Apple stores across the world..</p>
+                      <p className="font-semibold">Arundhati Roy</p>
+                      </div>
+                  </div>
+              </div>
+              <div comp className="">
+                  <div>
+                    <img className="rounded-t-lg w-fit" src={require('./images/imgs2.jpg')} alt="image" srcset="" />
+                  </div>
+                  <div>
+                      <div className="flex flex-row justify-between align-center pt-3 gap-3 py-2"> 
+                       <img className="" src={require('./images/elip2.jpg')} alt="image" srcset="" />
+                       <p className="text-md font-bold">Rollercoaster ride of four retail industry IPOs</p>
+                       </div>
+                       <div className="flex flex-col items-start justify-center gap-2">
+                      <p className="text-gray-500 font-medium ">These companies created a lot of hype when they listed on the...</p>
+                      <p className="font-semibold">Vikram Seth</p>
+                      </div>
+                  </div>
+              </div>
+              <div comp className="pt-2">
+                  <div>
+                    <img className="rounded-t-lg w-fit" src={require('./images/imgs3.jpg')} alt="image" srcset="" />
+                  </div>
+                  <div>
+                      <div className="flex flex-row justify-between align-center pt-3 gap-3 py-2"> 
+                       <img className="h-fit pt-2" src={require('./images/elip3.jpg')} alt="image" srcset="" />
+                       <p className="text-base font-bold">Uniqlo India's Success Mantra: Making headway </p>
+                       </div>
+                       <div className="flex flex-col items-start justify-center gap-2">
+                      <p className="text-gray-500 font-medium ">Uniqlo Asia's largest fashion retailer has managed to hit...</p>
+                      <p className="font-semibold">Jhumpa Lahiri</p>
+                      </div>
+                  </div>
+              </div>
+          </div>  
+      </div>
+    <div Secondblock className="">
+        <div comp>
+             <div nav className=" flex flex-row items-center justify-between  pl-4">
+                  <div>
+                    <h2 className="font-bold text-2xl">Research</h2>
+                    <p className="red_line"></p>
+                 </div>
+                 <div className="flex justify-between
+                    items-center gap-1.5 ">
+                      <p className="text-slate-600">See more </p>
+                      <p className=" text-base text-gray-500 text-center mt-1"><LiaGreaterThanSolid/></p>
+                  </div>
+             </div>
+         <div imgComp className="flex pt-4 pl-4 gap-4">
+              <div className="">
+                  <div >
+                    <img className="rounded-t-lg w-fit" src={require('./images/imgs1.jpg')} alt="image" srcset="" />
+                  </div>
+                  <div>
+                    <h2 className="py-3  text-gray-500 text-lg font-medium">
+                      Human touchpoint is extremely important for us,
+                    </h2>
+                    <h2 className="text-red-600 pb-2 font-medium">
+                      FASHION
+                    </h2>
+                   </div>
+              </div>
+              <div >
+                  <div className="">
+                    <img className="rounded-t-lg w-fit" src={require('./images/imgs5.jpg')} alt="image" srcset="" />
+                  </div>
+                  <div>
+                    <h2 className="py-3  text-gray-500 text-lg font-medium">
+                      US denim brand Lee opens outlets in Sikar , Patna..
+                    </h2>
+                    <h2  className="text-red-600 pb-2 font-medium">
+                      BEAUTY
+                    </h2>
+                   </div>
+              </div>
+         </div>
+        </div>
+      </div>
+
+
+    </div>
+
+{/* //blackscreen */}
+
+  <div className="bg-slate-900 h-[29rem]">
+          <div>
+             <div nav className=" flex flex-row items-center justify-between pt-7 px-10">
+                   <div>
+                  <h2 className="font-medium text-2xl text-white">IR Video Mall</h2>
+                    <p className="red_line"></p>
+                    </div>
+                    <div className="flex justify-between
+                    items-center gap-1.5 ">
+                      <p className="text-white text-[14.89px]">See more </p>
+                      <p className=" text-base text-white text-center mt-1"><LiaGreaterThanSolid/></p>
+                    </div>
+              </div>
+              <div className="grid grid-cols-2">
+                   <div sub_img className="px-10 pt-5">
+                     <img className="rounded-lg w-fit " src={require('./images/imgp1.jpg')} alt="image" srcset="" />
+                   </div>
+                   <div comp1 className="grid grid-cols-3 pr-4 gap-2" >
+                          <div slide1 className=" flex flex-col items-start gap-2">
+                        <h2 className="font-medium text-[17px] text-white">Retail with Rasult</h2>
+                        <p className="bg-red-600 w-6 p-0 h-0.5"></p>
+                        <img className="rounded-lg w-fit " src={require('./images/imgps1.jpg')} alt="image" srcset="" />
+                        <p className="text-[12px] font-[500] text-white">Senco Gold IPO subsrcibed 69% on first day of subscription</p>
+                        <img className="rounded-lg w-fit " src={require('./images/imgps4.jpg')} alt="image" srcset="" />
+                        <p className="font-[500] text-white text-[12px]">India D2 Summit & Awards 2023 TRaiblazing Brands and Profeesionals</p>
+                        </div>
+
+                        <div slide2 className=" flex flex-col items-start gap-2">
+                        <h2 className="font-medium text-[17px] text-white">The Store</h2>
+                        <p className="bg-red-600 w-6 p-0 h-0.5"></p>
+                        <img className="rounded-lg w-fit " src={require('./images/imgps2.jpg')} alt="image" srcset="" />
+                        <p className="text-[12px] font-[500] text-white">Fastrack Smart onboards Ranveer Singh as brand ambassador</p>
+                        <img className="rounded-lg w-fit " src={require('./images/imgps5.jpg')} alt="image" srcset="" />
+                        <p className="font-[500] text-white text-[12px]">Planet Fashion by ABFRL opens 2 outlets in Mumbai </p>
+                        </div>
+
+
+                        <div slide3 className=" flex flex-col items-start gap-2">
+                        <h2 className="font-medium text-[17px] text-white">IR Studio </h2>
+                        <p className="bg-red-600 w-6 p-0 h-0.5"></p>
+                        <img className="rounded-lg w-fit " src={require('./images/imgps3.jpg')} alt="image" srcset="" />
+                        <p className="text-[12px] font-[500] text-white">Zoca Cafe launches outlet in Bengaluru on Friday</p>
+                        <img className="rounded-lg w-fit " src={require('./images/imgps6.jpg')} alt="image" srcset="" />
+                        <p className="font-[500] text-white text-[12px]">Unwrapping the Archies's reinevention plan</p>
+                        </div>
+                   </div>
+              </div>
+          </div>        
+  </div>
+
+   
+   <div className="flex py-7 justify-center items-center">
+         <img className="rounded-sm w-fit " src={require('./images/slide.jpg')} alt="image" srcset="" />
+   </div>
+
+
+{/* FASHION BLOCK */}
+
+
+  <div grid className="grid grid-cols-[2fr,1fr] px-6">
+       <div className="flex flex-col justify-between">
+                    <div className="flex flex-row justify-between items-center">
+                              <div className="">
+                                  <h2 className="font-bold text-2xl">Fashion &  Styles</h2>
+                                  <p className="bg-red-600 w-6 p-0 h-0.5"></p>
+                              </div>
+                              <div className="flex justify-between
+                                  items-center gap-1.5 ">
+                                    <p className="text-slate-600">See more </p>
+                                    <p className=" text-base text-gray-500 text-center mt-1"><LiaGreaterThanSolid/></p>
+                                </div>      
+                      </div>
+                    <div className="grid grid-cols-2 py-4 gap-1">
+                      <div className="">
+                          <div FIRST className="flex flex-row justify-between gap-4 pb-5">
+                              <img className="rounded-lg w-fit " src={require('./images/imgn1.jpg')} alt="image" srcset="" /> 
+                               <div className="flex flex-col gap-2">
+                              <h3 className="font-[500] text-red-400 ">FASHION | FOOD</h3> 
+                              <h4 className="font-[600] ">What makes File unique is its attitude and...</h4> 
+                               <p className="text-gray-500" >The singer-songwritter has been spotted in the hybrid garment...</p>
+                              <p className="font-[600]">#fashion</p>
+                             </div>
+                          </div>
+                          <div THIRD className="flex flex-row justify-between gap-4 pb-5">
+                              <img className="rounded-lg w-fit " src={require('./images/imgn3.jpg')} alt="image" srcset="" /> 
+                               <div className="flex flex-col gap-2">
+                              <h3 className="font-[500] text-red-400 ">SHAJLESH | FASHION</h3> 
+                              <h4 className="font-[600] ">Fashion brand icons: Shailesh Chaturvedi of arvind Fashions</h4> 
+                              <p className="text-gray-500" >The Guccci loafer has been a signature style for 70 years.</p>
+                              <p className="font-[600]">#fashion</p>
+                             </div>
+                          </div>
+                          <div FIVE className="flex flex-row justify-between gap-4 pb-5">
+                              <img className="rounded-lg w-fit " src={require('./images/imgn5.jpg')} alt="image" srcset="" /> 
+                               <div className="flex flex-col gap-2">
+                              <h3 className="font-[500] text-red-400 ">LIFESTYLE | FASHION</h3> 
+                              <h4 className="font-[600] ">What makes File unique is its attitude and...</h4> 
+                              <p className="text-gray-500" >BTS attended the 2022 Grammy Awards in complementary</p>
+                              <p className="font-[600]">#fashion</p>
+                             </div>
+                          </div>
+                     </div>
+                        <div className="">
+                              <div SECOND className="flex flex-row justify-between gap-4 pb-5">
+                                  <img className="rounded-lg w-fit " src={require('./images/imgn2.jpg')} alt="image" srcset="" /> 
+                                  <div className="flex flex-col gap-2">
+                                  <h3 className="font-[500] text-red-400 ">SIDDHANT | FASHION</h3> 
+                                  <h4 className="font-[600] ">French Connection announces Siddhant Chaturvedi as...</h4> 
+                                  <p className="text-gray-500" >The singer-songwritter has been spotted in the hybrid garment...</p>
+                                  <p className="font-[600]">#fashion</p>
+                                </div>
+                              </div>
+                            
+                              <div FOUR className="flex flex-row justify-between gap-4 pb-5">
+                              <img className="rounded-lg w-fit " src={require('./images/imgn4.jpg')} alt="image" srcset="" /> 
+                               <div className="flex flex-col gap-2">
+                              <h3 className="font-[500] text-red-400 ">FASHION | RETAILERS</h3> 
+                              <h4 className="font-[600] ">Indian Fashion retailers to witness revenue...</h4> 
+                              <p className="text-gray-500" >The singer-songwritter has been spotted in the hybrid garment...</p>
+                              <p className="font-[600]">#fashion</p>
+                             </div>
+                          </div>
+
+
+                          <div SIX className="flex flex-row justify-between gap-4 pb-5">
+                              <img className="rounded-lg w-fit " src={require('./images/imgn6.jpg')} alt="image" srcset="" /> 
+                               <div className="flex flex-col gap-2">
+                              <h3 className="font-[500] text-red-400 ">FASHION | ZOUK</h3> 
+                              <h4 className="font-[600] ">Zouk marries heritage with functionality </h4> 
+                              <p className="text-gray-500" >The singer-songwritter has been spotted in the hybrid garment...</p>
+                              <p className="font-[600]">#lifestyle</p>
+                             </div>
+                          </div>
+                        </div> 
+                    </div>
+       </div>
+       <div className="flex flex-col pl-7 gap-4">
+                    <div className="flex flex-row justify-between items-center">
+                               <div className="">
+                                  <h2 className="font-bold text-2xl">Beauty &  Wellness</h2>
+                                  <p className="bg-red-600 w-6 p-0 h-0.5"></p>
+                              </div>
+                              <div className="flex justify-between
+                                  items-center gap-1.5 ">
+                                    <p className="text-slate-600">See more </p>
+                                    <p className=" text-base text-gray-500 text-center mt-1"><LiaGreaterThanSolid/></p>
+                                </div>      
+                      </div>
+                      <div className="border rounded-lg border-gray-600 p-4 flex flex-col gap-2">
+                               <div one className=" flex flex-row justify-between gap-5 ">
+                                <div className="w-40 flex flex-col justify-between items-start gap-2">
+                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]">BEAUTY | NEWS</h2>
+                                   <img className="rounded-lg w-fit " src={require('./images/imgrn1.jpg')} alt="image" srcset="" />
+                                </div>
+                                <div className="flex items-center">
+                                  <h2 className="font-[500] text-[15px]">Sugar Cosmetics unveils its 200th brand-owned store</h2>
+                                </div>
+                              </div>
+
+
+                              <div two className="flex flex-row justify-between gap-5 ">
+                                <div className="w-40 flex flex-col justify-between items-start gap-2">
+                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]">BEAUTY | NEWS</h2>
+                                   <img className="rounded-lg w-fit " src={require('./images/imgrn2.jpg')} alt="image" srcset="" />
+                                </div>
+                                <div className="flex items-center">
+                                  <h2 className="font-[500] text-[15px]">Sugar Cosmetics unveils its 200th brand-owned store</h2>
+                                </div>
+                              </div>
+
+
+                              <div three className="flex flex-row justify-between gap-5 ">
+                                <div className="w-40 flex flex-col justify-between items-start gap-2">
+                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]">BEAUTY | NEWS</h2>
+                                   <img className="rounded-lg w-fit " src={require('./images/imgrn3.jpg')} alt="image" srcset="" />
+                                </div>
+                                <div className="flex items-center">
+                                  <h2 className="font-[500] text-[15px]">Sugar Cosmetics unveils its 200th brand-owned store</h2>
+                                </div>
+                              </div>
+
+                              <div four className="flex flex-row justify-between gap-5 ">
+                                <div className="w-40 flex flex-col justify-between items-start gap-2">
+                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]">BEAUTY | NEWS</h2>
+                                   <img className="rounded-lg w-fit " src={require('./images/imgrn4.jpg')} alt="image" srcset="" />
+                                </div>
+                                <div className="flex items-center">
+                                  <h2 className="font-[500] text-[15px]">Sugar Cosmetics unveils its 200th brand-owned store</h2>
+                                </div>
+                              </div>
+
+                              <div five className="flex flex-row justify-between gap-5 ">
+                                <div className="w-40 flex flex-col justify-between items-start gap-2">
+                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]">BEAUTY | NEWS</h2>
+                                   <img className="rounded-lg w-fit " src={require('./images/imgrn5.jpg')} alt="image" srcset="" />
+                                </div>
+                                <div className="flex items-center">
+                                  <h2 className="font-[500] text-[15px]">Sugar Cosmetics unveils its 200th brand-owned store</h2>
+                                </div>
+                              </div>
+
+                    </div>
+        </div>
+  </div>
+
+{/* TOSTART */}
+
     </div>
   );
 }
 
 export default App;
+
+
