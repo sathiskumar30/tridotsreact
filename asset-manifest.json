@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tridotsreact/static/css/main.505b5821.css",
-    "main.js": "/tridotsreact/static/js/main.0ac688a9.js",
+    "main.css": "/tridotsreact/static/css/main.35ad658e.css",
+    "main.js": "/tridotsreact/static/js/main.42e1b48e.js",
     "static/media/imgp1.jpg": "/tridotsreact/static/media/imgp1.efe70c6b9003900fdc8a.jpg",
     "static/media/imgs3.jpg": "/tridotsreact/static/media/imgs3.33451ce2fc6d6f945062.jpg",
     "static/media/imgs5.jpg": "/tridotsreact/static/media/imgs5.6263a1a83c36643d4dda.jpg",
@@ -17,19 +17,22 @@
     "static/media/imgn4.jpg": "/tridotsreact/static/media/imgn4.08242a233556d8a7fb7a.jpg",
     "static/media/imgn2.jpg": "/tridotsreact/static/media/imgn2.c84030274f5e98c07478.jpg",
     "static/media/imgn5.jpg": "/tridotsreact/static/media/imgn5.f4c0fb00453251d92b1d.jpg",
+    "static/media/imga1.jpg": "/tridotsreact/static/media/imga1.979da116017098d87bae.jpg",
     "static/media/imgps2.jpg": "/tridotsreact/static/media/imgps2.4a3bbdfa766c649add44.jpg",
     "static/media/imgn6.jpg": "/tridotsreact/static/media/imgn6.0de6b6d165f0a9f41e52.jpg",
     "static/media/imgn1.jpg": "/tridotsreact/static/media/imgn1.11217d648657d363dab4.jpg",
+    "static/media/imga3.jpg": "/tridotsreact/static/media/imga3.6fecedf388a6eec9ba6f.jpg",
     "static/media/imgn3.jpg": "/tridotsreact/static/media/imgn3.72a3af1c83e1f3061b8c.jpg",
+    "static/media/imga2.jpg": "/tridotsreact/static/media/imga2.5a82f38b8d9cf68b46d2.jpg",
     "static/media/imgrn1.jpg": "/tridotsreact/static/media/imgrn1.48e97dbc9b19b06c96da.jpg",
     "static/media/imgrn4.jpg": "/tridotsreact/static/media/imgrn4.d015c9347deb024c6726.jpg",
     "static/media/imgrn5.jpg": "/tridotsreact/static/media/imgrn5.eb9ca614366aad4943bd.jpg",
     "index.html": "/tridotsreact/index.html",
-    "main.505b5821.css.map": "/tridotsreact/static/css/main.505b5821.css.map",
-    "main.0ac688a9.js.map": "/tridotsreact/static/js/main.0ac688a9.js.map"
+    "main.35ad658e.css.map": "/tridotsreact/static/css/main.35ad658e.css.map",
+    "main.42e1b48e.js.map": "/tridotsreact/static/js/main.42e1b48e.js.map"
   },
   "entrypoints": [
-    "static/css/main.505b5821.css",
-    "static/js/main.0ac688a9.js"
+    "static/css/main.35ad658e.css",
+    "static/js/main.42e1b48e.js"
   ]
 }
