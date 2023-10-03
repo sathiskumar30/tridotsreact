@@ -175,7 +175,6 @@
 .Comp_text1{
     display: flex;
     flex-direction: row;
-    align-items: start;
     justify-content: space-between;
     gap: 6.5rem;
     
@@ -196,7 +195,6 @@
 .Comp_text2{
     display: flex;
     flex-direction: row;
-    align-items: start;
     justify-content: space-between;
     gap: 12rem;
     
@@ -204,7 +202,6 @@
 .Comp_text3{
     display: flex;
     flex-direction: row;
-    align-items: start;
     justify-content: space-between;
     gap: 9rem;
     

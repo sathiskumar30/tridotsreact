@@ -28,23 +28,23 @@ const Section1 = () => {
     return (
         <div className="container">
           <p>Web Specials</p>
-          <div className='top-head'>
-              <div className='img-1'>
+          <div className='top-head max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:gap-0 max-sm:h-fit'>
+              <div className='img-1 max-sm:w-fit max-sm:h-fit'>
                 <p>Rahul Gandhi in Manipur Chopper Ride After Women Protesters Surround </p>
                 <p>Rahul Gandhi</p>
               </div>
-              <div className='mid-con'>
+              <div className='mid-con max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:w-fit max-sm:py-3'>
                 <p><PiDotFill style={{fontSize:30,color:"rgb(235, 62, 62)"}}/>Cinema industry welcomes lowering GST rates</p>
                 <p><PiDotFill style={{fontSize:30,color:"rgb(235, 62, 62)"}}/>patanjali Ayurved to sell 7% stake in patanjali</p>
                 <p><PiDotFill style={{fontSize:30,color:"rgb(235, 62, 62)"}}/>Select Citywalk opens 4 new stores in june</p>
                 <p><PiDotFill style={{fontSize:30,color:"rgb(235, 62, 62)"}}/>Govt imposes import restrictins on certain gold</p>
                 <p><PiDotFill style={{fontSize:30,color:"rgb(235, 62, 62)"}}/>joom Marketplace offers a global window for sellers</p>
               </div>
-              <div className='ad-con'>
+              <div className='ad-con max-sm:hidden '>
     
               </div>
           </div>
-          <div className='bottom-con'>
+          <div className="bottom-con max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:items- max-sm:gap-4 max-sm:pr-4 max-sm:pt-0">
               {data.map(item=><Contents item={item}/>)}
           </div>
         </div>
@@ -54,7 +54,7 @@ const Section1 = () => {
 
 
 function Contents({item}){
-    return<div className='item'>
+    return<div className="item max-sm:flex max-sm:flex-row max-sm:justify-between  max-sm:gap-4 max-sm:p-0 max-sm:w-fit max-sm:h-fit">
           <img src={item.img}/>
           <p>{item.detail}</p>
     </div>

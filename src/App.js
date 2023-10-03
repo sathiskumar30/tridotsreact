@@ -10,14 +10,14 @@ import Section1 from "./Section1";
 function App() {
   return (
     <div>
-      <div className="search">
-        <div className="search_1">
+      <div className="search sm:flex sm:flex-row sm:justify-between sm:gap-2">
+        <div className="search_1 max-sm:[8px]">
           <p>
             <GoSearch id="searc" />
           </p>
           <p>Search here...</p>
         </div>
-        <div>
+        <div className="max-sm:hidden">
           <img
             src="https://yt3.googleusercontent.com/Tfn2Z3Fd4qUEzumdHu7sADuSAo6kfGHLQqwCr-JMFIcy6kiY2eFKaigc1oxVdI68J-LK1lijUuk=s900-c-k-c0x00ffffff-no-rj"
             alt=""
@@ -25,34 +25,34 @@ function App() {
           />
         </div>
         <div className="search_btn">
-          <button className="btn_1">SUBSCRIBE</button>
-          <button className="btn_2">SIGN IN</button>
+          <button className="btn_1 max-sm:bg-red-700 max-sm:text-xs">SUBSCRIBE</button>
+          <button className="btn_2 max-sm:text-[9px] max-sm:font-semibold ">SIGN IN</button>
         </div>
       </div>
 
-      <div className="Nav_bar">
-        <div className="nav_bar1">
-          <p className="l_1"></p>
-          <p className="l_2"></p>
-          <p className="l_3"></p>
+      <div className="Nav_bar max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:items-center max-sm:gap-2 max-sm:">
+        <div className="nav_bar1 max-sm:flex max-sm:flex-col max-sm:gap-1">
+          <p className="l_1 max-sm:w-4 max-sm:h-0.5"></p>
+          <p className="l_2 max-sm:w-6 max-sm:h-0.5"></p>
+          <p className="l_3 max-sm:w-4 max-sm:h-0.5"></p>
         </div>
-        <div className="nav_section">
+        <div className=" nav_section max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:items-center max-sm:gap-5 max-sm:text-sm max-sm:overflow-scroll">
           <p style={{ color: "red" }}>Home</p>
           <p>Categories</p>
-          <p>IR Prime</p>
+          <p>Prime</p>
           <p>Events</p>
           <p>Bookstore</p>
           <p>Newsletter</p>
           <p>Video</p>
         </div>
-        <div className="weather">
-          <p>
-            <TiWeatherPartlySunny />
+        <div className="weather max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:items-center max-sm:text-[8px]">
+          <p className="">
+            <TiWeatherPartlySunny className="max-sm:text-lg" />
             Friday, 30th June,2023
           </p>
         </div>
       </div>
-      <div className="Nav_bar2">
+      <div className="Nav_bar2 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:items-center max-sm:gap-1 max-sm:py-2 max-sm:text-[8.5px] max-sm:px-4 max-sm:font-[400]">
         <p>Fashion & Lifestyle</p>
         <BsDot />
         <p>Beauty & Wellness </p>
@@ -66,66 +66,63 @@ function App() {
         <p>Home Decor & Furnishing</p>
       </div>
 
-      <div className="News">
-        <div className="new_img1">
+      <div className="flex flex-row justify-between items-center gap-2 px-7 py-3 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:items-center max-sm:p-0 bg-slate-100 max-sm:py- max-sm:px-3">
+        <div className="flex flex-row justify-between items-center gap-4 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:items-center max-sm:gap-3 max-sm:py-4">
           <div>
-            <img
-              src="https://previews.123rf.com/images/minianne/minianne1803/minianne180300154/98042061-lights-of-car-traffic-on-a-busy-city-road-at-night-in-the-big-city.jpg"
-              id="img1"
-            />
+          <img className="rounded-t-lg w-fit max-sm:h-[99px] max-sm:w-[150px] " src={require('./images/imga1.jpg')} alt="image" srcset="" />
           </div>
-          <div>
-            <h3 style={{ color: "red" }}>HOTSPOTS</h3>
-            <h5>Luxury Hotspots ; 5 more expensive</h5>
-            <h5>high streets in the.,</h5>
+          <div className="max-sm:flex max-sm:flex-col max-sm:gap-0  ">
+            <h3 style={{ color: "red" }} className="max-sm:text-[12px] font-[600]">HOTSPOTS</h3>
+            <h5 className="font-[600] max-sm:text-[11.5px]">Luxury Hotspots ; 5 more expensive</h5>
+            <h5 className="font-[600] max-sm:text-[11.5px] ">high streets in the.,</h5>
           </div>
         </div>
-        <div className="new_img2">
+
+
+
+        <div className="flex flex-row justify-between items-center gap-4 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:items-center max-sm:gap-3 max-sm:py-4">
           <div>
-            <img
-              src="https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4="
-              id="img2"
-            />
+          <img className="rounded-t-lg w-fit max-sm:h-[99px] max-sm:w-[150px]" src={require('./images/imga2.jpg')} alt="image" srcset="" />
           </div>
-          <div>
-            <h3 style={{ color: "red" }}>AI</h3>
-            <h5>5 ways to leverage the power of </h5>
-            <h5>ChatGPT in retail </h5>
+          <div className="max-sm:flex max-sm:flex-col max-sm:gap-0  ">
+            <h3 style={{ color: "red" }} className="font-[600] max-sm:text-[12px]">AI</h3>
+            <h5 className="font-[600] max-sm:text-[11.5px]">5 ways to leverage the power of </h5>
+            <h5 className="font-[600] max-sm:text-[11.5px] ">ChatGPT in retail </h5>
           </div>
         </div>
-        <div className="new_img2">
-          <div>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_sWj9gYDWKb77o4D0qwPoNssvWPe3Ps2YNA&usqp=CAU"
-              id="img3"
-            />
+        <div className="max-sm:hidden flex flex-row justify-between items-center gap-4 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:items-center max-sm:gap-3 max-sm:py-4">
+          <div className=" max-sm:flex max-sm:flex-col max-sm:gap-0  ">
+          <img className="rounded-t-lg w-fit max-sm:h-[90px] max-sm:w-[120px]" src={require('./images/imga3.jpg')} alt="image" srcset="" />
           </div>
           <div>
-            <h3 style={{ color: "red" }}>SHIPPING</h3>
-            <h5>Reliance to open 250 Azorte stores</h5>
-            <h5>in 2-3 years</h5>
+            <h3 style={{ color: "red" }} className="max-sm:text-[10px] font-[500]">SHIPPING</h3>
+            <h5 className="font-[600] max-sm:text-[10px]">Reliance to open 250 Azorte stores</h5>
+            <h5 className="font-[600] max-sm:text-[10px]">in 2-3 years</h5>
           </div>
         </div>
       </div>
-      <div className="grids">
+      <div className="grids max-sm:grid max-sm:grid-cols-1 max-sm:gap-4 ">
         <div>
           <div className="full_grid1">
-            <div className="back_image" style={{ borderRadius: "5px" }}>
-              <div className="img_text">
-                <h4 id="foc_btn">IN FOCUS</h4>
-                <h2>Rahul Gandhi In Manipur : Chopper Ride After women </h2>
-                <h2>Protesters Sourrounded Car </h2>
-                <h3 className="text-gray-300">Rahul Gandhi</h3>
+            <div className="back_image max-sm:w-fit max-sm:h-[220px]" style={{ borderRadius: "5px" }}>
+              <div className="img_text max-sm:flex max-sm:gap-0">
+                <h4 id="foc_btn" className="max-sm:text-xs max-sm:py-0.5">IN FOCUS</h4>
+                <h2 className="max-sm:text-sm max-sm:py-0">Rahul Gandhi In Manipur : Chopper Ride After women </h2>
+                <h2 className="max-sm:text-sm max-sm:py-0">Protesters Sourrounded Car </h2>
+                <h3 className="text-red-600 max-sm:text-sm max-sm:font-[600]">Rahul Gandhi</h3>
               </div>
             </div>
-            <div className="Comp_1">
-              <div className="Comp_img1">
+
+
+
+            <div className="Comp_1 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:items-center max-sm:gap-4 max-sm:pt-3">
+              <div className="Comp_img1 max-sm:w-fit h-fit">
                 <img src="https://img.forconstructionpros.com/files/base/acbm/fcp/image/2022/11/Stock_fleet_of_trucks.635ac468da689.6377d88e2593d.png?auto=format%2Ccompress&fit=crop&h=288&q=70&w=512" />
-              </div>
-              <div className="Comp_text1">
-                <div className="texty_1">
-                  <h3 style={{ color: "red" }}>SELECT CITYWALK</h3>
-                  <h1>Wow! Momo Foods enters Bhopal Witth Wow!</h1>
+              </div> 
+              <div className="Comp_text1 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:gap-0">
+                <div className="texty_1 max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:items-start max-sm:gap-2 max-sm:text-sm">
+                  <h3 style={{ color: "red" }} className="max-sm:font-[500]">SELECT CITYWALK</h3>
+                  <h1 className="max-sm:font-[500]">Wow! Momo Foods enters Bhopal Witth Wow!</h1>
                   <p># Citywalk #reel stories product</p>
                 </div>
                 <div className="Comp_icon1">
@@ -133,14 +130,20 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="Comp_1">
-              <div className="Comp_img1">
+
+
+
+
+
+
+            <div className="Comp_1 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:gap-4 max-sm:py-0">
+              <div className="Comp_img1  max-sm:w-[95px] h-fit">
                 <img src="https://dxminds.com/wp-content/uploads/2019/03/HOW-MUCH-DOES-IT-COST-TO-SET-UP-AN-AI-STORE-LIKE-AMAZON-GO.jpg" />
               </div>
-              <div className="Comp_text2">
-                <div className="texty_1">
-                  <h3 style={{ color: "red" }}>FOOD & BEVERAGE</h3>
-                  <h1>KFC opens another outle in Punjab</h1>
+              <div className="Comp_text2 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:gap-0">
+                <div className="texty_1 max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:items-start max-sm:gap-2 max-sm:text-sm">
+                  <h3 style={{ color: "red" }} className="max-sm:font-[500]">FOOD & BEVERAGE</h3>
+                  <h1 className="max-sm:font-[500]">KFC opens another outle in Punjab</h1>
                   <p># Beverage #reel stories product</p>
                 </div>
                 <div className="Comp_icon1">
@@ -148,14 +151,14 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="Comp_1">
-              <div className="Comp_img1">
+            <div className="Comp_1 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:gap-4 max-sm:pb-0">
+              <div className="Comp_img1  max-sm:w-[115px] h-fit">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg_TiUxHEdFQfbw3uAo_SmQuH4BCj7JPdHyw&usqp=CAU" />
               </div>
-              <div className="Comp_text3">
-                <div className="texty_1">
-                  <h3 style={{ color: "red" }}>SELECT CITYWALK</h3>
-                  <h1>FNP (Ferns N Petals) appoints ashish Goel</h1>
+              <div className="Comp_text3 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:gap-0">
+                <div className="texty_1 max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:items-start max-sm:gap-2 max-sm:text-sm">
+                  <h3 style={{ color: "red" }} className="max-sm:font-[500]">SELECT CITYWALK</h3>
+                  <h1 className="max-sm:font-[500]">FNP (Ferns N Petals) appoints ashish Goel</h1>
                   <p># Citywalk #reel stories product</p>
                 </div>
                 <div className="Comp_icon1">
@@ -253,7 +256,7 @@ function App() {
             </h5>
            </div>
           </div>
-          <div className="bg-gray-50 h-44 rounded-xl w-auto pt-2 flex items-center justify-center flex-col gap-5" >
+          <div className="bg-gray-100 h-44 rounded-xl w-auto pt-2 flex items-center justify-center flex-col gap-5 max-sm:mt-4" >
               <div className="text-red-500 font-bold text-2xl">
                 <h1 >Subscribe</h1>
               </div>
@@ -274,18 +277,18 @@ function App() {
            <h2 className="font-bold text-2xl">Trending</h2>
             <p className="red_line"></p>
         </div>
-         <div className="flex justify-stretch items-center flex-row gap-3 p-4 pl-6">
-            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Rahul Gandhi in Manipur</p>
-            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Meta</p>
-            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">E-Commercer</p>
-            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Fashion</p>
-            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Live Cricket News</p>
-            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Leo Update</p>
-            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Sushant dead</p>
-            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Myntra Launches</p>
-            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">Thalapathy Vijay</p>
-            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 ">India won</p>
-            <p className=" border border-gray-200 rounded-md  font-medium text-base text-gray-500 px-2 py-2 "><LiaGreaterThanSolid/></p>
+         <div className="flex justify-stretch items-center flex-row gap-3 p-4 pl-6 max-sm:flex max-sm:flex-row max-sm:justify-stretch max-sm:items-center max-sm:gap-2 max-sm:overflow-scroll">
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 max-sm:font-bold  max-sm:w-fit">Rahul Gandhi in Manipur</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 max-sm:font-bold max-sm:text-xs  ">Meta</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 max-sm:font-bold max-sm:text-xs ">E-Commercer</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 max-sm:font-bold max-sm:text-xs ">Fashion</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 max-sm:font-bold max-sm:text-xs ">Live Cricket News</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 max-sm:font-bold max-sm:text-xs ">Leo Update</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 max-sm:font-bold max-sm:text-xs ">Sushant dead</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 max-sm:font-bold max-sm:text-xs ">Myntra Launches</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 max-sm:font-bold max-sm:text-xs ">Thalapathy Vijay</p>
+            <p className="border border-gray-200 rounded-md p-1.5 font-medium text-base text-gray-500 max-sm:font-bold max-sm:text-xs ">India won</p>
+            <p className=" border border-gray-200 rounded-md  font-medium text-base text-gray-500 px-2 py-2 max-sm:hidden "><LiaGreaterThanSolid/></p>
          </div>
          </div>
 
@@ -294,7 +297,7 @@ function App() {
 
 
 
-    <div main className="p-3 pl-6 flex flex-row justify-between gap-2">
+    <div main className="p-3 pl-6 flex flex-row justify-between gap-2 max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:items-center max-sm:gap-3">
 
       <div firstblock>
               <div nav className=" flex flex-row items-center justify-between">
@@ -308,10 +311,10 @@ function App() {
                       <p className=" text-base text-gray-500 text-center mt-1"><LiaGreaterThanSolid/></p>
                     </div>
               </div>
-          <div content className="pt-2 flex flex-row justify-between items-center gap-4">
+          <div content className="pt-2 flex flex-row justify-between items-center gap-4 max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:items-center max-sm:gap-3 max-sm:pt-3">
               <div comp className="">
                   <div>
-                    <img className="rounded-t-lg w-auto" src={require('./images/imgs4.jpg')} alt="image" srcset="" />
+                    <img className="rounded-t-lg w-auto max-sm:w-[300px]" src={require('./images/imgs4.jpg')} alt="image" srcset="" />
                   </div>
                   <div>
                       <div className="flex flex-row justify-between align-center pt-3 gap-3 py-2"> 
@@ -326,7 +329,7 @@ function App() {
               </div>
               <div comp className="">
                   <div>
-                    <img className="rounded-t-lg w-fit" src={require('./images/imgs2.jpg')} alt="image" srcset="" />
+                    <img className="rounded-t-lg w-fit max-sm:w-[300px]" src={require('./images/imgs2.jpg')} alt="image" srcset="" />
                   </div>
                   <div>
                       <div className="flex flex-row justify-between align-center pt-3 gap-3 py-2"> 
@@ -341,7 +344,7 @@ function App() {
               </div>
               <div comp className="pt-2">
                   <div>
-                    <img className="rounded-t-lg w-fit" src={require('./images/imgs3.jpg')} alt="image" srcset="" />
+                    <img className="rounded-t-lg w-fit max-sm:w-[300px]" src={require('./images/imgs3.jpg')} alt="image" srcset="" />
                   </div>
                   <div>
                       <div className="flex flex-row justify-between align-center pt-3 gap-3 py-2"> 
@@ -358,7 +361,7 @@ function App() {
       </div>
     <div Secondblock className="">
         <div comp>
-             <div nav className=" flex flex-row items-center justify-between  pl-4">
+             <div nav className=" flex flex-row items-center justify-between  pl-4 max-sm:p-0 ">
                   <div>
                     <h2 className="font-bold text-2xl">Research</h2>
                     <p className="red_line"></p>
@@ -369,7 +372,7 @@ function App() {
                       <p className=" text-base text-gray-500 text-center mt-1"><LiaGreaterThanSolid/></p>
                   </div>
              </div>
-         <div imgComp className="flex pt-4 pl-4 gap-4">
+         <div imgComp className="flex pt-4 pl-4 gap-4 max-sm:pl-0">
               <div className="">
                   <div >
                     <img className="rounded-t-lg w-fit" src={require('./images/imgs1.jpg')} alt="image" srcset="" />
@@ -405,11 +408,11 @@ function App() {
 
 {/* //blackscreen */}
 
-  <div className="bg-slate-900 h-[29rem]">
+  <div className="bg-slate-600 h-[29rem] max-sm:h-fit">
           <div>
-             <div nav className=" flex flex-row items-center justify-between pt-7 px-10">
+             <div nav className=" flex flex-row items-center justify-between pt-7 px-10 max-sm:px-3 max-sm:pl-6 max-sm:pt-3">
                    <div>
-                  <h2 className="font-medium text-2xl text-white">IR Video Mall</h2>
+                  <h2 className="font-medium text-2xl text-white max-sm:text-lg">IR Video Mall</h2>
                     <p className="red_line"></p>
                     </div>
                     <div className="flex justify-between
@@ -418,37 +421,49 @@ function App() {
                       <p className=" text-base text-white text-center mt-1"><LiaGreaterThanSolid/></p>
                     </div>
               </div>
-              <div className="grid grid-cols-2">
-                   <div sub_img className="px-10 pt-5">
-                     <img className="rounded-lg w-fit " src={require('./images/imgp1.jpg')} alt="image" srcset="" />
+              <div className="grid grid-cols-2 max-sm:grid max-sm:grid-cols-1 max-sm:gap-3">
+                   <div sub_img className="px-10 pt-5 max-sm:px-6 max-sm:pt-3">
+                     <img className="rounded-lg w-fit max-sm:w-fit" src={require('./images/imgp1.jpg')} alt="image" srcset="" />
                    </div>
-                   <div comp1 className="grid grid-cols-3 pr-4 gap-2" >
-                          <div slide1 className=" flex flex-col items-start gap-2">
-                        <h2 className="font-medium text-[17px] text-white">Retail with Rasult</h2>
+                   <div comp1 className="grid grid-cols-3 pr-4 gap-2 max-sm:grid max-sm:grid-cols-1 max-sm:p-0 max-sm:gap-7" >
+                          <div slide1 className=" flex flex-col items-start gap-2 max-sm:pl-6 max-sm:gap-4">
+                        <h2 className="font-medium text-[17px] text-white ">Retail with Result</h2>
                         <p className="bg-red-600 w-6 p-0 h-0.5"></p>
+                        <div className="max-sm:grid max-sm:grid-cols-2 max-sm:gap-4 max-sm:pr-2 ">
                         <img className="rounded-lg w-fit " src={require('./images/imgps1.jpg')} alt="image" srcset="" />
-                        <p className="text-[12px] font-[500] text-white">Senco Gold IPO subsrcibed 69% on first day of subscription</p>
-                        <img className="rounded-lg w-fit " src={require('./images/imgps4.jpg')} alt="image" srcset="" />
-                        <p className="font-[500] text-white text-[12px]">India D2 Summit & Awards 2023 TRaiblazing Brands and Profeesionals</p>
+                        <p className="text-[12px] font-[500] text-white max-sm:text-base">Senco Gold IPO subsrcibed 69% on first day of subscription</p>
                         </div>
+                         <div className="max-sm:grid max-sm:grid-cols-2 max-sm:gap-4 max-sm:pr-2">
+                        <img className="rounded-lg w-fit " src={require('./images/imgps4.jpg')} alt="image" srcset="" />
+                        <p className="font-[500] text-white text-[12px] max-sm:text-base">India D2 Summit & Awards 2023 TRaiblazing Brands and Profeesionals</p>
+                        </div>
+                     </div>
 
-                        <div slide2 className=" flex flex-col items-start gap-2">
+                        <div slide2 className=" flex flex-col items-start gap-2 max-sm:pl-6 max-sm:gap-4">
                         <h2 className="font-medium text-[17px] text-white">The Store</h2>
                         <p className="bg-red-600 w-6 p-0 h-0.5"></p>
+                        <div className="max-sm:grid max-sm:grid-cols-2 max-sm:gap-4 max-sm:pr-2">
                         <img className="rounded-lg w-fit " src={require('./images/imgps2.jpg')} alt="image" srcset="" />
-                        <p className="text-[12px] font-[500] text-white">Fastrack Smart onboards Ranveer Singh as brand ambassador</p>
+                        <p className="text-[12px] font-[500] text-white max-sm:text-base">Fastrack Smart onboards Ranveer Singh as brand ambassador</p>
+                        </div>
+                        <div className="max-sm:grid max-sm:grid-cols-2 max-sm:gap-4 max-sm:pr-2">
                         <img className="rounded-lg w-fit " src={require('./images/imgps5.jpg')} alt="image" srcset="" />
-                        <p className="font-[500] text-white text-[12px]">Planet Fashion by ABFRL opens 2 outlets in Mumbai </p>
+                        <p className="font-[500] text-white text-[12px] max-sm:text-base">Planet Fashion by ABFRL opens 2 outlets in Mumbai </p>
+                        </div>
                         </div>
 
 
-                        <div slide3 className=" flex flex-col items-start gap-2">
+                        <div slide3 className=" flex flex-col items-start gap-2 max-sm:pl-6 max-sm:gap-4 max-sm:pb-4">
                         <h2 className="font-medium text-[17px] text-white">IR Studio </h2>
                         <p className="bg-red-600 w-6 p-0 h-0.5"></p>
+                        <div className="max-sm:grid max-sm:grid-cols-2 max-sm:gap-4 max-sm:pr-2">
                         <img className="rounded-lg w-fit " src={require('./images/imgps3.jpg')} alt="image" srcset="" />
-                        <p className="text-[12px] font-[500] text-white">Zoca Cafe launches outlet in Bengaluru on Friday</p>
+                        <p className="text-[12px] font-[500] text-white max-sm:text-base">Zoca Cafe launches outlet in Bengaluru on Friday</p>
+                        </div>
+                        <div className="max-sm:grid max-sm:grid-cols-2 max-sm:gap-4 max-sm:pr-2">
                         <img className="rounded-lg w-fit " src={require('./images/imgps6.jpg')} alt="image" srcset="" />
-                        <p className="font-[500] text-white text-[12px]">Unwrapping the Archies's reinevention plan</p>
+                        <p className="font-[500] text-white text-[12px] max-sm:text-base">Unwrapping the Archies's reinevention plan</p>
+                        </div>
                         </div>
                    </div>
               </div>
@@ -456,7 +471,7 @@ function App() {
   </div>
 
    
-   <div className="flex py-7 justify-center items-center">
+   <div className="flex py-7 justify-center items-center max-sm:flex max-sm:justify-center max-sm:iems-center max-sm:py-5 max-sm:px-5">
          <img className="rounded-sm w-fit " src={require('./images/slide.jpg')} alt="image" srcset="" />
    </div>
 
@@ -464,87 +479,87 @@ function App() {
 {/* FASHION BLOCK */}
 
 
-  <div grid className="grid grid-cols-[2fr,1fr] px-6">
-       <div className="flex flex-col justify-between">
-                    <div className="flex flex-row justify-between items-center">
+  <div grid className="grid grid-cols-[2fr,1fr] px-6 max-sm:grid max-sm:grid-cols-[1fr] max-sm:px-0">
+       <div className="flex flex-col justify-between ">
+                    <div className="flex flex-row justify-between items-center max-sm:flex max-sm:items-center max-sm:justify-between max-sm:pl-4 max-sm:px-2">
                               <div className="">
                                   <h2 className="font-bold text-2xl">Fashion &  Styles</h2>
                                   <p className="bg-red-600 w-6 p-0 h-0.5"></p>
                               </div>
                               <div className="flex justify-between
-                                  items-center gap-1.5 ">
+                                  items-center gap-1.5">
                                     <p className="text-slate-600">See more </p>
                                     <p className=" text-base text-gray-500 text-center mt-1"><LiaGreaterThanSolid/></p>
                                 </div>      
                       </div>
-                    <div className="grid grid-cols-2 py-4 gap-1">
+                    <div className="grid grid-cols-2 py-4 gap-1 max-sm:grid max-sm:grid-cols-1 max-sm:gap-2 max-sm:px-4 max-sm:h-fit">
                       <div className="">
-                          <div FIRST className="flex flex-row justify-between gap-4 pb-5">
-                              <img className="rounded-lg w-fit " src={require('./images/imgn1.jpg')} alt="image" srcset="" /> 
-                               <div className="flex flex-col gap-2">
-                              <h3 className="font-[500] text-red-400 ">FASHION | FOOD</h3> 
-                              <h4 className="font-[600] ">What makes File unique is its attitude and...</h4> 
-                               <p className="text-gray-500" >The singer-songwritter has been spotted in the hybrid garment...</p>
-                              <p className="font-[600]">#fashion</p>
+                          <div FIRST className="flex flex-row justify-between gap-4 pb-5 max-sm:gap-3 max-sm:pb-3 ">
+                              <img className="rounded-lg w-fit" src={require('./images/imgn1.jpg')} alt="image" srcset="" /> 
+                               <div className="flex flex-col gap-2 max-sm:gap-0.5">
+                              <h3 className="font-[500] text-red-400 max-sm:font[300] max-sm:text-xs">FASHION | FOOD</h3> 
+                              <h4 className="font-[600] max-sm:text-[13px]">What makes File unique is its attitude and...</h4> 
+                               <p className="text-gray-500 max-sm:text-[13px]" >The singer-songwritter has been spotted in the hybrid garment...</p>
+                              <p className="font-[600] max-sm:text-[13px]">#fashion</p>
                              </div>
                           </div>
-                          <div THIRD className="flex flex-row justify-between gap-4 pb-5">
+                          <div THIRD className="flex flex-row justify-between gap-4 pb-5 max-sm:gap-3 max-sm:pb-3">
                               <img className="rounded-lg w-fit " src={require('./images/imgn3.jpg')} alt="image" srcset="" /> 
-                               <div className="flex flex-col gap-2">
-                              <h3 className="font-[500] text-red-400 ">SHAJLESH | FASHION</h3> 
-                              <h4 className="font-[600] ">Fashion brand icons: Shailesh Chaturvedi of arvind Fashions</h4> 
-                              <p className="text-gray-500" >The Guccci loafer has been a signature style for 70 years.</p>
-                              <p className="font-[600]">#fashion</p>
+                               <div className="flex flex-col gap-2 max-sm:gap-0.5">
+                              <h3 className="font-[500] text-red-400 max-sm:text-[13px]">SHAJLESH | FASHION</h3> 
+                              <h4 className="font-[600] max-sm:text-[13px]">Fashion brand icons: Shailesh Chaturvedi of arvind Fashions</h4> 
+                              <p className="text-gray-500 max-sm:text-[13px]" >The Guccci loafer has been a signature style for 70 years.</p>
+                              <p className="font-[600] max-sm:text-[13px]">#fashion</p>
                              </div>
                           </div>
-                          <div FIVE className="flex flex-row justify-between gap-4 pb-5">
+                          <div FIVE className="flex flex-row justify-between gap-4 pb-5 max-sm:gap-3 max-sm:pb-3">
                               <img className="rounded-lg w-fit " src={require('./images/imgn5.jpg')} alt="image" srcset="" /> 
-                               <div className="flex flex-col gap-2">
-                              <h3 className="font-[500] text-red-400 ">LIFESTYLE | FASHION</h3> 
-                              <h4 className="font-[600] ">What makes File unique is its attitude and...</h4> 
-                              <p className="text-gray-500" >BTS attended the 2022 Grammy Awards in complementary</p>
-                              <p className="font-[600]">#fashion</p>
+                               <div className="flex flex-col gap-2 max-sm:gap-0.5">
+                              <h3 className="font-[500] text-red-400  max-sm:text-[13px]">LIFESTYLE | FASHION</h3> 
+                              <h4 className="font-[600]  max-sm:text-[13px]">What makes File unique is its attitude and...</h4> 
+                              <p className="text-gray-500 max-sm:text-[13px]" >BTS attended the 2022 Grammy Awards in complementary</p>
+                              <p className="font-[600] max-sm:text-[13px]">#fashion</p>
                              </div>
                           </div>
                      </div>
                         <div className="">
-                              <div SECOND className="flex flex-row justify-between gap-4 pb-5">
+                              <div SECOND className="flex flex-row justify-between gap-4 pb-5 max-sm:gap-3 max-sm:pb-3">
                                   <img className="rounded-lg w-fit " src={require('./images/imgn2.jpg')} alt="image" srcset="" /> 
-                                  <div className="flex flex-col gap-2">
-                                  <h3 className="font-[500] text-red-400 ">SIDDHANT | FASHION</h3> 
-                                  <h4 className="font-[600] ">French Connection announces Siddhant Chaturvedi as...</h4> 
-                                  <p className="text-gray-500" >The singer-songwritter has been spotted in the hybrid garment...</p>
-                                  <p className="font-[600]">#fashion</p>
+                                  <div className="flex flex-col gap-2 max-sm:gap-0.5">
+                                  <h3 className="font-[500] text-red-400 max-sm:text-[13px]">SIDD | FASHION</h3> 
+                                  <h4 className="font-[600]  max-sm:text-[13px]">French Connection announces Siddhant Chaturvedi as...</h4> 
+                                  <p className="text-gray-500 max-sm:text-[13px]" >The singer-songwritter has been spotted in the hybrid garment...</p>
+                                  <p className="font-[600] max-sm:text-[13px]">#fashion</p>
                                 </div>
                               </div>
                             
-                              <div FOUR className="flex flex-row justify-between gap-4 pb-5">
+                              <div FOUR className="max-sm:gap-3 max-sm:pb-3 flex flex-row justify-between gap-4 pb-5">
                               <img className="rounded-lg w-fit " src={require('./images/imgn4.jpg')} alt="image" srcset="" /> 
-                               <div className="flex flex-col gap-2">
-                              <h3 className="font-[500] text-red-400 ">FASHION | RETAILERS</h3> 
-                              <h4 className="font-[600] ">Indian Fashion retailers to witness revenue...</h4> 
-                              <p className="text-gray-500" >The singer-songwritter has been spotted in the hybrid garment...</p>
-                              <p className="font-[600]">#fashion</p>
+                               <div className="flex flex-col gap-2 max-sm:gap-0.5">
+                              <h3 className="font-[500] text-red-400   max-sm:text-[13px]">FASHION | RETAILERS</h3> 
+                              <h4 className="font-[600]  max-sm:text-[13px]">Indian Fashion retailers to witness revenue...</h4> 
+                              <p className="text-gray-500  max-sm:text-[13px]" >The singer-songwritter has been spotted in the hybrid garment...</p>
+                              <p className="font-[600]  max-sm:text-[13px]">#fashion</p>
                              </div>
                           </div>
 
 
-                          <div SIX className="flex flex-row justify-between gap-4 pb-5">
+                          <div SIX className="flex flex-row justify-between gap-4 pb-5 max-sm:gap-3 max-sm:pb-3">
                               <img className="rounded-lg w-fit " src={require('./images/imgn6.jpg')} alt="image" srcset="" /> 
-                               <div className="flex flex-col gap-2">
-                              <h3 className="font-[500] text-red-400 ">FASHION | ZOUK</h3> 
-                              <h4 className="font-[600] ">Zouk marries heritage with functionality </h4> 
-                              <p className="text-gray-500" >The singer-songwritter has been spotted in the hybrid garment...</p>
-                              <p className="font-[600]">#lifestyle</p>
+                               <div className="flex flex-col gap-2 max-sm:gap-0.5">
+                              <h3 className="font-[500] text-red-400  max-sm:text-[13px]">FASHION | ZOUK</h3> 
+                              <h4 className="font-[600]  max-sm:text-[13px]">Zouk marries heritage with functionality </h4> 
+                              <p className="text-gray-500 max-sm:text-[13px]" >The singer-songwritter has been spotted in the hybrid garment...</p>
+                              <p className="font-[600] max-sm:text-[13px]">#lifestyle</p>
                              </div>
                           </div>
                         </div> 
                     </div>
        </div>
-       <div className="flex flex-col pl-7 gap-4">
-                    <div className="flex flex-row justify-between items-center">
+       <div className="flex flex-col pl-7 gap-4 max-sm:flex max-sm:flex-col max-sm:gap-2 max-sm:pl-4  ">
+                    <div className="flex flex-row justify-between items-center max-sm:pr-3 ">
                                <div className="">
-                                  <h2 className="font-bold text-2xl">Beauty &  Wellness</h2>
+                                  <h2 className="font-bold text-2xl max-sm:text-lg">Beauty &  Wellness</h2>
                                   <p className="bg-red-600 w-6 p-0 h-0.5"></p>
                               </div>
                               <div className="flex justify-between
@@ -553,10 +568,10 @@ function App() {
                                     <p className=" text-base text-gray-500 text-center mt-1"><LiaGreaterThanSolid/></p>
                                 </div>      
                       </div>
-                      <div className="border rounded-lg border-gray-600 p-4 flex flex-col gap-2">
-                               <div one className=" flex flex-row justify-between gap-5 ">
-                                <div className="w-40 flex flex-col justify-between items-start gap-2">
-                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]">BEAUTY | NEWS</h2>
+                      <div className="border rounded-lg border-gray-600 p-4 flex flex-col gap-2 max-sm:flex max-sm:flex-col max-sm:p-3 max-sm:gap-2 max-sm:mr-3 ">
+                               <div one className=" flex flex-row justify-between gap-5 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:gap-5  ">
+                                <div className="w-40 flex flex-col justify-between items-start gap-2 max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:items-center max-sm:gap-1.5 ">
+                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px] max-sm:text-xs">BEAUTY | NEWS</h2>
                                    <img className="rounded-lg w-fit " src={require('./images/imgrn1.jpg')} alt="image" srcset="" />
                                 </div>
                                 <div className="flex items-center">
@@ -565,9 +580,9 @@ function App() {
                               </div>
 
 
-                              <div two className="flex flex-row justify-between gap-5 ">
-                                <div className="w-40 flex flex-col justify-between items-start gap-2">
-                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]">BEAUTY | NEWS</h2>
+                              <div two className="flex flex-row justify-between gap-5 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:gap-5">
+                                <div className="w-40 flex flex-col justify-between items-start gap-2 max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:items-center max-sm:gap-1.5">
+                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]  max-sm:text-xs">BEAUTY | NEWS</h2>
                                    <img className="rounded-lg w-fit " src={require('./images/imgrn2.jpg')} alt="image" srcset="" />
                                 </div>
                                 <div className="flex items-center">
@@ -576,9 +591,9 @@ function App() {
                               </div>
 
 
-                              <div three className="flex flex-row justify-between gap-5 ">
-                                <div className="w-40 flex flex-col justify-between items-start gap-2">
-                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]">BEAUTY | NEWS</h2>
+                              <div three className="flex flex-row justify-between gap-5 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:gap-5">
+                                <div className="w-40 flex flex-col justify-between items-start gap-2 max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:items-center max-sm:gap-1.5">
+                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]  max-sm:text-xs">BEAUTY | NEWS</h2>
                                    <img className="rounded-lg w-fit " src={require('./images/imgrn3.jpg')} alt="image" srcset="" />
                                 </div>
                                 <div className="flex items-center">
@@ -586,9 +601,9 @@ function App() {
                                 </div>
                               </div>
 
-                              <div four className="flex flex-row justify-between gap-5 ">
+                              <div four className="flex flex-row justify-between gap-5 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:gap-5">
                                 <div className="w-40 flex flex-col justify-between items-start gap-2">
-                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]">BEAUTY | NEWS</h2>
+                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]  max-sm:text-xs">BEAUTY | NEWS</h2>
                                    <img className="rounded-lg w-fit " src={require('./images/imgrn4.jpg')} alt="image" srcset="" />
                                 </div>
                                 <div className="flex items-center">
@@ -596,9 +611,9 @@ function App() {
                                 </div>
                               </div>
 
-                              <div five className="flex flex-row justify-between gap-5 ">
-                                <div className="w-40 flex flex-col justify-between items-start gap-2">
-                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]">BEAUTY | NEWS</h2>
+                              <div five className="flex flex-row justify-between gap-5 max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:gap-5">
+                                <div className="w-40 flex flex-col justify-between items-start gap-2 max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:items-center max-sm:gap-1.5">
+                                   <h2 className=" text-red-500 text-sm font-[500] pt-[-10px]  max-sm:text-xs">BEAUTY | NEWS</h2>
                                    <img className="rounded-lg w-fit " src={require('./images/imgrn5.jpg')} alt="image" srcset="" />
                                 </div>
                                 <div className="flex items-center">
